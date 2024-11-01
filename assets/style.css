@@ -1,18 +1,35 @@
-.base-color{
-    background-color: blue;
-}
-#title{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 32px;
-    color: red;
-}
-#body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 16.5px;
+
+*{
     font-size: 16px;
     color: black;
+    margin: 0% 2%;
 }
-#info{
+header{
     background-color: lightblue;
     color: pink;
+}
+header h1{
+    text-align: center;
+    font-size: 100%;
+    color: pink;
+}
+header #nav-list a{
+    color: pink;
+}
+header #nav-list{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+main{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    display: inline-flex;
+}
+main .subjests{
+    background-color: lightblue;
+    width: 50px;
 }
